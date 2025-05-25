@@ -1230,13 +1230,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Generice Trust Boundary",
+              "name": "Generic Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "Generice Trust Boundary"
+              "Generic Trust Boundary"
             ],
             "id": "822c4515-59b2-41cf-9d6f-844d30d0129b",
             "source": {
