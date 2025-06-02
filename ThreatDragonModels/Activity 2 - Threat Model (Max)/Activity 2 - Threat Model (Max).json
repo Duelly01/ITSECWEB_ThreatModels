@@ -19,12 +19,12 @@
         "cells": [
           {
             "position": {
-              "x": 149.9999999999992,
-              "y": 120.00000000000114
+              "x": 149.99999999999864,
+              "y": 80.00000000000193
             },
             "size": {
               "width": 830,
-              "height": 490
+              "height": 590
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -39,6 +39,8 @@
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
                 "boundary",
                 "button-remove",
                 "boundary",
