@@ -508,8 +508,8 @@
             },
             "vertices": [
               {
-                "x": 670,
-                "y": 65
+                "x": 710,
+                "y": 40
               }
             ]
           },
@@ -558,8 +558,8 @@
             },
             "vertices": [
               {
-                "x": 670,
-                "y": 120
+                "x": 690,
+                "y": 130
               }
             ]
           },
@@ -658,8 +658,8 @@
             },
             "vertices": [
               {
-                "x": 710,
-                "y": 300
+                "x": 700,
+                "y": 350
               }
             ]
           },
@@ -890,8 +890,40 @@
             },
             "vertices": [
               {
-                "x": 810,
+                "x": 820,
                 "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic\nTrust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic\nTrust Boundary"
+            ],
+            "id": "652a8229-625f-4662-828d-a7164cfee6f4",
+            "source": {
+              "x": 910,
+              "y": 20
+            },
+            "target": {
+              "x": 910,
+              "y": 170
+            },
+            "vertices": [
+              {
+                "x": 870,
+                "y": 90
               }
             ]
           },
@@ -1136,8 +1168,8 @@
           },
           {
             "position": {
-              "x": 900,
-              "y": 35
+              "x": 920,
+              "y": 50
             },
             "size": {
               "width": 120,
