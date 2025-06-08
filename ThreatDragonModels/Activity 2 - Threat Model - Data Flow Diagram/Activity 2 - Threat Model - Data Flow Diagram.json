@@ -36,15 +36,6 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -385,12 +376,6 @@
               "cell": "f9afd34e-5f9c-4961-8d6d-ed63602c153d",
               "port": "60f7d5a5-9629-47a5-a5af-619ce65f6cd5"
             },
-            "vertices": [
-              {
-                "x": 440,
-                "y": 240
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -400,7 +385,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 240
+              }
+            ]
           },
           {
             "shape": "flow",
