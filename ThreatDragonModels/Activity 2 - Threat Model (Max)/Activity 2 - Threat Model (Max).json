@@ -460,56 +460,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User Sends\nCredentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "User Sends\nCredentials"
-            ],
-            "id": "830b1166-0f35-47d4-bc8a-697bdcaffe9e",
-            "source": {
-              "cell": "81f5a235-2e5d-47e1-a89c-9225f7e0196e",
-              "port": "00ede9ee-4bd3-4b5b-8efa-c6a49b70c3fb"
-            },
-            "target": {
-              "cell": "cff7deec-824e-42ff-bdfc-0a2555263cc7",
-              "port": "a3e4ce7a-1094-483f-8952-2756c63aef53"
-            },
-            "vertices": [
-              {
-                "x": 230,
-                "y": 150
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Auth\nVerification",
               "description": "",
               "outOfScope": false,
@@ -627,106 +577,6 @@
               {
                 "x": 560,
                 "y": 360
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "User is\nAuthenticated",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "User is\nAuthenticated"
-            ],
-            "id": "f891e883-76b8-41dc-a975-af473eb421cd",
-            "source": {
-              "cell": "cff7deec-824e-42ff-bdfc-0a2555263cc7",
-              "port": "a3e4ce7a-1094-483f-8952-2756c63aef53"
-            },
-            "target": {
-              "cell": "81f5a235-2e5d-47e1-a89c-9225f7e0196e",
-              "port": "00ede9ee-4bd3-4b5b-8efa-c6a49b70c3fb"
-            },
-            "vertices": [
-              {
-                "x": 230,
-                "y": 200
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "User Feedback\nComments",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "User Feedback\nComments"
-            ],
-            "id": "48c64bec-29a9-4f08-b20a-9d8049e50c9d",
-            "source": {
-              "cell": "81f5a235-2e5d-47e1-a89c-9225f7e0196e",
-              "port": "a506aa20-fbb7-4326-b15e-92807d76b1cf"
-            },
-            "target": {
-              "cell": "cff7deec-824e-42ff-bdfc-0a2555263cc7",
-              "port": "182f0da7-f5b7-4d2b-b01f-7f26a1fc71f3"
-            },
-            "vertices": [
-              {
-                "x": 220,
-                "y": 100
               }
             ]
           },
@@ -908,56 +758,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Insert Query\nwith Feedback Comment",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Insert Query\nwith Feedback Comment"
-            ],
-            "id": "788d1125-ed52-443b-982f-58ea1c75f5a2",
-            "source": {
-              "cell": "cff7deec-824e-42ff-bdfc-0a2555263cc7",
-              "port": "6be75fdf-cfdd-40b2-befc-22484a1fd010"
-            },
-            "target": {
-              "cell": "72bd72be-c113-412b-b653-b6d9fcc6cbaf",
-              "port": "e5dde82a-c2fc-4aaa-812b-b6998edc536f"
-            },
-            "vertices": [
-              {
-                "x": 630,
-                "y": 210
-              }
-            ]
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -993,7 +793,218 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User is\nAuthenticated",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "d130408b-199e-4abb-b4ef-50bb57c9e170",
+                  "title": "Information Disclosure Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "User is\nAuthenticated"
+            ],
+            "id": "f891e883-76b8-41dc-a975-af473eb421cd",
+            "source": {
+              "cell": "cff7deec-824e-42ff-bdfc-0a2555263cc7",
+              "port": "a3e4ce7a-1094-483f-8952-2756c63aef53"
+            },
+            "target": {
+              "cell": "81f5a235-2e5d-47e1-a89c-9225f7e0196e",
+              "port": "00ede9ee-4bd3-4b5b-8efa-c6a49b70c3fb"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User Sends\nCredentials",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "d8e18a7b-84eb-4ad3-a4b8-2dc346fa5d04",
+                  "title": " Information Disclosure Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "User Sends\nCredentials"
+            ],
+            "id": "830b1166-0f35-47d4-bc8a-697bdcaffe9e",
+            "source": {
+              "cell": "81f5a235-2e5d-47e1-a89c-9225f7e0196e",
+              "port": "00ede9ee-4bd3-4b5b-8efa-c6a49b70c3fb"
+            },
+            "target": {
+              "cell": "cff7deec-824e-42ff-bdfc-0a2555263cc7",
+              "port": "a3e4ce7a-1094-483f-8952-2756c63aef53"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User Feedback\nComments",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "be84fb41-9272-4dd9-8b14-3d6d9ba4705c",
+                  "title": " Information Disclosure Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "User Feedback\nComments"
+            ],
+            "id": "48c64bec-29a9-4f08-b20a-9d8049e50c9d",
+            "source": {
+              "cell": "81f5a235-2e5d-47e1-a89c-9225f7e0196e",
+              "port": "a506aa20-fbb7-4326-b15e-92807d76b1cf"
+            },
+            "target": {
+              "cell": "cff7deec-824e-42ff-bdfc-0a2555263cc7",
+              "port": "182f0da7-f5b7-4d2b-b01f-7f26a1fc71f3"
+            },
+            "vertices": [
+              {
+                "x": 220,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -1013,12 +1024,31 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "8cf647e4-0c3c-42f6-a093-8a7f7fb2a172",
+                  "title": " Information Disclosure Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Web Application\nResponse"
@@ -1040,6 +1070,76 @@
               {
                 "x": 130,
                 "y": 60
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Insert Query\nwith Feedback Comment",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "4e5a33ad-88dd-42fe-9c1e-2837fbc1b6fb",
+                  "title": " Information Disclosure Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Insert Query\nwith Feedback Comment"
+            ],
+            "id": "788d1125-ed52-443b-982f-58ea1c75f5a2",
+            "source": {
+              "cell": "cff7deec-824e-42ff-bdfc-0a2555263cc7",
+              "port": "6be75fdf-cfdd-40b2-befc-22484a1fd010"
+            },
+            "target": {
+              "cell": "72bd72be-c113-412b-b653-b6d9fcc6cbaf",
+              "port": "e5dde82a-c2fc-4aaa-812b-b6998edc536f"
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 210
               }
             ]
           },
@@ -1180,11 +1280,13 @@
                 "text": "SQL Database"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1280,13 +1382,66 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "a13f8e4a-57d4-418c-9fbe-01020483b590",
+                  "title": "Tampering Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "SQL injection is an attack in which malicious code is inserted into strings that are later passed to an instance of SQL Server for parsing and execution.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "1d62edab-6f79-4af2-95f4-ae8b6b0d0323",
+                  "title": "Repudiation Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "The SQL Database claims that it did not write data received from an entity on the other side of the trust boundary. Consider using logging or auditing to record the source, time and a summary of the received data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "e8a0625a-7c98-47df-bf2f-65237c6fb1ee",
+                  "title": "Denial of Service Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "An external agent prevents access to the SQL Database Server on the other side of the trust boundary.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
@@ -1294,6 +1449,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 3
+    "threatTop": 13
   }
 }
