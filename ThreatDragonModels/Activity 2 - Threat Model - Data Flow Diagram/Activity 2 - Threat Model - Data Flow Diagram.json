@@ -536,76 +536,6 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Insert Query\nwith Feedback Comments",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "eb56c78d-6f79-4461-b530-823b2b7a5e4d",
-                  "title": "Web Application to SQL Database Threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Information disclosure",
-                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 11,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 1,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Insert Query\nwith Feedback Comments"
-            ],
-            "id": "e06d7923-50bc-419b-b2fe-12b1c3e477b2",
-            "source": {
-              "cell": "f9afd34e-5f9c-4961-8d6d-ed63602c153d",
-              "port": "b42d0f1f-e58f-4c3e-8fba-c17f39c60eb8"
-            },
-            "target": {
-              "cell": "af5d8496-b5cb-4d0e-b0d4-caaae30da550",
-              "port": "7db80c1e-b21e-4696-a938-7e21ef2d1d2a"
-            },
-            "vertices": [
-              {
-                "x": 710,
-                "y": 280
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
                 "stroke": "#333333",
                 "targetMarker": {
                   "name": "block"
@@ -769,146 +699,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User is Authenticated",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "adf79f7f-3851-4604-92dd-58cfb60e0b59",
-                  "title": "Web Application to Browser Client Threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Information disclosure",
-                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 13,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 1,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "User is Authenticated"
-            ],
-            "id": "da049e1a-9f3d-4c63-8773-415e869c5936",
-            "source": {
-              "cell": "f9afd34e-5f9c-4961-8d6d-ed63602c153d",
-              "port": "2aba9d20-4da7-4b29-94b2-fcc49e11cf19"
-            },
-            "target": {
-              "cell": "9227b38a-6bfa-4400-8b23-2d45ed3ecea1",
-              "port": "3e8d79e2-4d58-4717-8548-a090e41057b8"
-            },
-            "vertices": [
-              {
-                "x": 230,
-                "y": 300
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "User Sends\nUser Credentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "92dce8e2-8021-42fd-9ea2-61e4d12b074b",
-                  "title": "Browser Client to Web Application Threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Information disclosure",
-                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 14,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 1,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "User Sends\nUser Credentials"
-            ],
-            "id": "80b2a56d-7747-46b6-8713-9923784018d2",
-            "source": {
-              "cell": "9227b38a-6bfa-4400-8b23-2d45ed3ecea1",
-              "port": "3e8d79e2-4d58-4717-8548-a090e41057b8"
-            },
-            "target": {
-              "cell": "f9afd34e-5f9c-4961-8d6d-ed63602c153d",
-              "port": "2aba9d20-4da7-4b29-94b2-fcc49e11cf19"
-            },
-            "vertices": [
-              {
-                "x": 200,
-                "y": 240
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Feedback Comments\nSaved",
               "description": "",
               "outOfScope": false,
@@ -1038,6 +828,216 @@
               {
                 "x": 190,
                 "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User is Authenticated",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "adf79f7f-3851-4604-92dd-58cfb60e0b59",
+                  "title": "Web Application to Browser Client Information Disclosure Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "User is Authenticated"
+            ],
+            "id": "da049e1a-9f3d-4c63-8773-415e869c5936",
+            "source": {
+              "cell": "f9afd34e-5f9c-4961-8d6d-ed63602c153d",
+              "port": "2aba9d20-4da7-4b29-94b2-fcc49e11cf19"
+            },
+            "target": {
+              "cell": "9227b38a-6bfa-4400-8b23-2d45ed3ecea1",
+              "port": "3e8d79e2-4d58-4717-8548-a090e41057b8"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User Sends\nUser Credentials",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "92dce8e2-8021-42fd-9ea2-61e4d12b074b",
+                  "title": "Browser Client to Web Application Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "User Sends\nUser Credentials"
+            ],
+            "id": "80b2a56d-7747-46b6-8713-9923784018d2",
+            "source": {
+              "cell": "9227b38a-6bfa-4400-8b23-2d45ed3ecea1",
+              "port": "3e8d79e2-4d58-4717-8548-a090e41057b8"
+            },
+            "target": {
+              "cell": "f9afd34e-5f9c-4961-8d6d-ed63602c153d",
+              "port": "2aba9d20-4da7-4b29-94b2-fcc49e11cf19"
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Insert Query\nwith Feedback Comments",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "eb56c78d-6f79-4461-b530-823b2b7a5e4d",
+                  "title": "Web Application to SQL Database Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Data flowing across saved feedback comments may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Insert Query\nwith Feedback Comments"
+            ],
+            "id": "e06d7923-50bc-419b-b2fe-12b1c3e477b2",
+            "source": {
+              "cell": "f9afd34e-5f9c-4961-8d6d-ed63602c153d",
+              "port": "b42d0f1f-e58f-4c3e-8fba-c17f39c60eb8"
+            },
+            "target": {
+              "cell": "af5d8496-b5cb-4d0e-b0d4-caaae30da550",
+              "port": "7db80c1e-b21e-4696-a938-7e21ef2d1d2a"
+            },
+            "vertices": [
+              {
+                "x": 710,
+                "y": 280
               }
             ]
           },
@@ -1286,7 +1286,7 @@
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Tampering",
-                  "description": "SQL injection is an attack in which malicious code is inserted into strings that are later passed to an instance of SQL Server for parsing and execution.\n\nData flowing across saved feedback comments may be tampered with by an attacker. Failure to verify that input is as expected is a root cause of a fairly large number of exploitable issues. Consider all paths and the way they handle data. Verify that all input is verified for correctness using an approved-list input validation approach.",
+                  "description": "SQL injection is an attack in which malicious code is inserted into strings that are later passed to an instance of SQL Server for parsing and execution.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
@@ -1321,11 +1321,18 @@
                 }
               ],
               "threatFrequency": {
-                "tampering": 4,
+                "tampering": 5,
                 "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 1
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
