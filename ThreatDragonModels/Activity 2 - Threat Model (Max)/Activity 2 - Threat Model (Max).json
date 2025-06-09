@@ -1278,21 +1278,27 @@
                   "new": false,
                   "number": 14,
                   "score": ""
+                },
+                {
+                  "id": "164bfbc4-9cf6-4909-afc2-a7460d8ffad2",
+                  "title": "Repudiation Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "LDAP claims that it did not write data received from an entity on the other side of the trust boundary. Consider using logging or auditing to record the source, time and a summary of the received data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1471,6 +1477,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 14
+    "threatTop": 15
   }
 }
